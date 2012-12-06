@@ -19,7 +19,7 @@ var fu = require('fileutil');
 fu.touch('/var/www/log/2012-12-6.log');
 
 //创建文件夹
-fu.mkdri('/usr/local/tmp/node-example');
+fu.mkdir('/usr/local/tmp/node-example');
 
 //删除文件或文件夹
 fu.delete('/var/www/tmp');

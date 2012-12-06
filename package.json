@@ -1,0 +1,34 @@
+{
+    "name": "fileutil",
+    "version": "1.0.0",
+	"description": "an easy file operation utility",
+    "keywords": ["synchronous file operation", "touch, move, mkdir, copy"],
+    "main": "lib/fileutil.js",
+    "engines": {
+        "node" : ">=0.8.0"
+    },
+	"author": "colorhook <colorhook@gmail.com>",
+	"maintainers": [{
+      "name": "colorhook",
+      "email": "colorhook@gmail.com",
+      "url": "http://colorhook.com"
+    }],
+	"bugs": {
+        "email": "colorhook@gmail.com",
+        "url": "http://github.com/colorhook/fileutil/issues"
+    },
+    "dependencies": {
+		"wrench": "~1.4.4"
+    },
+    "homepage": "https://github.com/colorhook/fileutil",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/colorhook/fileutil.git"
+    },
+	"licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/colorhook/fileutil/blob/master/LICENSE"
+        }
+    ]
+}

@@ -65,7 +65,8 @@ fu.each(src, function(item){
   }
 }, function(){
   console.log('遍历完成');
-})
+});
+```
 
 
 Licence

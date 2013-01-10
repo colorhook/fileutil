@@ -1,6 +1,6 @@
 {
     "name": "fileutil",
-    "version": "1.0.0",
+    "version": "1.1.0",
 	"description": "an easy file operation utility",
     "keywords": ["synchronous file operation", "touch, move, mkdir, copy"],
     "main": "lib/fileutil.js",
@@ -19,6 +19,13 @@
     },
     "dependencies": {
 		"wrench": "~1.4.4"
+    },
+    "devDependencies: {
+        "mocha": "~1.7.4",
+	    "should": "~1.2.1"
+    },
+    "scripts":{
+        "test": "mocha --reporter spec --timeout 5000--require should"
     },
     "homepage": "https://github.com/colorhook/fileutil",
     "repository" : {

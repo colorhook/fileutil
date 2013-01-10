@@ -9,11 +9,6 @@ describe('file is a static utility', function(){
     fu.delete('tmp2');
   });
 
-  it('absolute method to an absolute path', function(){
-    var f = __filename;
-    fu.absolute(f).should.equal(path.resolve(f)); 
-    fu.absolute(f, __dirname + '/../').should.equal(path.resolve(f));
-  });
 
   it('exist method return if a file or dir exist', function(){
     var f = __filename;

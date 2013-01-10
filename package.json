@@ -20,7 +20,7 @@
     "dependencies": {
 		"wrench": "~1.4.4"
     },
-    "devDependencies: {
+    "devDependencies": {
         "mocha": "~1.7.4",
 	    "should": "~1.2.1"
     },

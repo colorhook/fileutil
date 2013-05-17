@@ -9,6 +9,10 @@ fileutil
 -------
 npm install fileutil
 
+单元测试
+-------
+[![travis build status](https://api.travis-ci.org/colorhook/fileutil.png)](https://www.travis-ci.org/colorhook/fileutil)
+
 示例
 -------
 
